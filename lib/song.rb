@@ -1,9 +1,9 @@
 require 'pry'
 
 class Song
-  include Paramable::InstanceMethods
+  #include Paramable::InstanceMethods
   extend Memorable
-  extend Findable
+  #extend Findable
   attr_accessor :name
   attr_reader :artist
 
@@ -34,6 +34,6 @@ class Song
   end
 
   # def to_param
-  #   name.downcase.gsub(' ', '-')
-  # end
+    name.downcase.gsub(' ', '-')
+  end
 end
