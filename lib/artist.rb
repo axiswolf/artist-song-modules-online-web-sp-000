@@ -1,5 +1,5 @@
 require 'pry'
-require_relative '../lib/concerns/memorable'
+require_relative '../config/environment'
 
 class Artist
   include Paramable::InstanceMethods
