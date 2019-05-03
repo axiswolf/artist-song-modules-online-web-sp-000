@@ -1,3 +1,5 @@
+require_relative './config/environment.rb'
+
 module Memorable
   module ClassMethods
     def reset_all
