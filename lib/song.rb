@@ -5,6 +5,7 @@ class Song
   include Memorable::InstanceMethods
   extend Memorable::ClassMethods
   extend Paramble::ClassMethods
+  extend Findable::ClassMethods
   attr_accessor :name
   attr_reader :artist
 
