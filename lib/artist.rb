@@ -2,7 +2,7 @@ require 'pry'
 require_relative '../lib/concerns/memorable'
 
 class Artist
-  #include Paramable::InstanceMethods
+  include Paramable::InstanceMethods
   include Memorable::InstanceMethods
   extend Memorable::ClassMethods
   #extend Findable
