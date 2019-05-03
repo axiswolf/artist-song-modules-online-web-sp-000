@@ -3,7 +3,7 @@ require_relative '../lib/concerns/memorable'
 
 class Artist
   #include Paramable::InstanceMethods
-
+  extend Memorable::ClassMethods
   #extend Findable
   attr_accessor :name
   attr_reader :songs
@@ -30,7 +30,6 @@ class Artist
   # def self.count
   #   self.all.count
   # end
-  extend Memorable::ClassMethods
   def add_song(song)
     @songs << song
     song.artist = self
