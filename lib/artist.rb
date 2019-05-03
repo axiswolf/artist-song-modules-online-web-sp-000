@@ -1,5 +1,4 @@
 require 'pry'
-require_relative './concerns/memorable.rb'
 
 class Artist
   #include Paramable::InstanceMethods
