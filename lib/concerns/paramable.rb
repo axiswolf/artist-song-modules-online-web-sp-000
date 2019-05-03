@@ -1,3 +1,5 @@
+require_relative './config/environment.rb'
+
 module Paramable
   module InstanceMethods
     def to_param
