@@ -1,7 +1,7 @@
 require 'pry'
-require_relative 'findable.rb'
-require_relative 'memorable.rb'
-require_relative 'paramable.rb'
+# require_relative 'findable.rb'
+# require_relative 'memorable.rb'
+# require_relative 'paramable.rb'
 
 class Song
   include Memorable::InstanceMethods
