@@ -1,5 +1,3 @@
-require_relative './config/environment.rb'
-
 module Findable
   module ClassMethods
     def self.find_by_name(name)
