@@ -1,8 +1,7 @@
 require 'pry'
-require_relative './config/environment.rb'
-require_relative './lib/concerns/findable.rb'
-require_relative './lib/concerns/memorable.rb'
-require_relative './lib/concerns/paramable.rb'
+require_relative 'findable.rb'
+require_relative 'memorable.rb'
+require_relative 'paramable.rb'
 
 class Artist
   include Paramable::InstanceMethods
